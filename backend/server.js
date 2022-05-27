@@ -8,4 +8,4 @@ app.use('/api/goals', require('./routes/goalRoutes'));
 
 app.listen(() => {
     console.log(`Server started on port ${port}`)
-})
+});
